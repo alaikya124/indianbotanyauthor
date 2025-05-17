@@ -1,0 +1,51 @@
+{
+    box-sizing: border-box
+}
+.header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: aliceblue;
+    color: black;
+}
+.header:logo{
+    width: 100px;
+}
+.header:logo img{
+    width:100%;
+    height: auto;
+}
+.header-college name{
+    text-align: center;
+    flex-grow: 1;
+}
+.header college name{
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+.table{
+    margin: 3%;
+}
+.fontstyle{
+    font-style: normal;
+    font-size: larger;
+}
+.footer{
+    text-align: center;
+    padding: 20px;
+    background-color: antiquewhite;
+    color: black;
+    justify-content: space-between;
+    margin-top:10%;
+}
+.th,tr{
+    align-items: center;
+    padding: 50px;
+    background-color: antiquewhite;
+    color: black;
+}
+.table{
+    width: 100%;
+}
